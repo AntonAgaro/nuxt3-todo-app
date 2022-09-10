@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import './variables';
+@import './functions';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: $backgroundColor;
+  color: $textColor
+}
+
+#__nuxt {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: pix2rem(20);
+}
