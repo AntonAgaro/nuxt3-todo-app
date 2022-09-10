@@ -12,5 +12,9 @@ vite: {
             }
         }
     }
-}
+},
+    target: 'static',
+    router: {
+        base: '/nuxt3-todo-app'
+    }
 })
